@@ -1,0 +1,202 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato|Lusitana|Vidaloka');
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Vidaloka', serif;
+}
+.f-m-h2{
+    font-size:29px;
+}
+p {
+    font-family: 'Lusitana', serif;
+}
+.g-height-2 {
+    height: 2px;
+}
+
+.g-width-70 {
+    width: 70px !important;
+}
+
+.g-right-minus-25 {
+    right: -1.78571rem;
+}
+
+.g-top-5 {
+    top: 0.35714rem !important;
+}
+
+.g-pos-rel {
+    position: relative !important;
+}
+.g-bg-primary {
+    background-color: #72c02c !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+.f-icon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 3.92857rem;
+    height: 3.92857rem;
+    font-size: 1.57143rem;
+    background:#f5f5f5;
+}
+.f-icon i {
+    position: relative;
+    top: 50%;
+    display: block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.g-left-minus-25 {
+    left: -1.78571rem;
+}
+
+.g-bg-brown {
+    background-color: #9c8061 !important;
+}
+.f-h2{
+    font-size:21px;
+}
+.f-h3 {
+    font-size: 17px;
+    text-align:center;
+}
+.serv p{
+    text-align:center;
+}
+.serv {
+    border: 1px solid #eff2f6;
+    padding: 40px;
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+.our-serv {
+    padding: 45px 0;
+    /*background: linear-gradient(135deg, rgba(0, 185, 250, 0.8), rgba(67, 68, 248, 0.8));*/
+    background: linear-gradient(to left, #7873ed, #a865e1);
+    /*background: linear-gradient(135deg, rgba(0, 185, 250, 0.8), rgba(67, 68, 248, 0.8));*/
+}
+.serv:hover{
+    background: #f5f5f5;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: 50% 36px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    display:block;
+    padding:19px 0;
+}
+.parallax::before {
+    /*background: linear-gradient(135deg, rgba(0, 185, 250, 0.8), rgba(67, 68, 248, 0.8));*/
+    background: linear-gradient(135deg, rgba(111, 6, 245, .95) -2%, rgba(111, 6, 245, .89) 0%, rgba(63, 116, 255, .9) 99%, #3f74ff);
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    /*z-index: -1;*/
+}
+.sppb-row-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    background-repeat: repeat;
+}
+.about, .contact, .why {
+    padding: 45px 0;
+}
+.cont-form .form-control {
+    border-radius: 40px 40px 40px 0px;
+    margin-bottom:15px;
+    padding:25px 15px;
+}
+.btn-primary {
+    border-radius: 40px 40px 40px 0px;
+    padding: 13px 25px;
+    background: #8638b7 !important;
+}
+.fb, .insta {
+    background: gray;
+    width: 60px;
+    height: 60px;
+    padding: 7px 9px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.fb:hover {
+   background: #395692;
+}
+.twitter:hover {
+    background: #04A9F4;
+}
+.insta:hover {
+    background: #8638B7;
+}
+.twitter {
+    background: gray;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+.mobile-ban{
+    display:none;
+}
+@media only screen and (min-width:360px) and (max-width:640px){
+    .desktop-ban{
+        display:none;
+    }
+    .mobile-ban {
+        display: block;
+    }
+    .carousel {
+        height:auto;
+    }
+}
+@media only screen and (max-width:320px){
+    .desktop-ban{
+        display:none;
+    }
+    .mobile-ban{
+        display:block;
+    }
+    .carousel{
+        height:auto;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:667px){
+    .desktop-ban {
+        display: none;
+    }
+
+    .mobile-ban {
+        display: block;
+    }
+
+    .carousel {
+        height: auto;
+    }
+}
